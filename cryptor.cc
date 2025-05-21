@@ -142,6 +142,7 @@ public:
     }
 
 private:
+    /* Паттерн Singleton, получить обьект можно только через статический метод */
     EncryptionManager() = default;
     ~EncryptionManager() = default;
     EncryptionManager(const EncryptionManager&) = delete;
